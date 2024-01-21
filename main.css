@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.popup {
+    font-family: Inter, 'sans-serif';
+    color: #f2f2f2;
+    background-color: #1f1f1f;
+    min-width: 200px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile > img {
+    border-radius: 50%;
+    width: 160px;
+    margin: 40px 0;
+}
+
+.profile > .name {
+    font-size: 2.1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.profile > .location {
+    color:#cae572;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+.profile > .role-description {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.buttons-section {
+    margin: 0 30px;
+    width: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons-section > button {
+    width: 100%;
+    margin-bottom: 30px;
+    color: #f2f2f2;
+    background-color: #333;
+    border-radius: 12px;
+    height: 64px;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.buttons-section > button:hover {
+    cursor: pointer;
+}
